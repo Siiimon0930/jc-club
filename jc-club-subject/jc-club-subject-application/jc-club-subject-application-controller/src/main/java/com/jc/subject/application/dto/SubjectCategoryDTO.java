@@ -14,6 +14,11 @@ import java.io.Serializable;
 public class SubjectCategoryDTO implements Serializable {
 
     /**
+     * 主键
+     */
+    private Long id;
+
+    /**
      * 分类名称
      */
     private String categoryName;

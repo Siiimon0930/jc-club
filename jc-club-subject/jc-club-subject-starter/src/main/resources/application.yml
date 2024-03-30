@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     username: root
-    password: JzctMj4X4cyCLSDUNrt2Tw/gWNtEnhIVOSTGYJq4PbBTvCEgS4KbHOrl0YrgbSkbfsEzJAY6ZmAdhE1c2Z3ANA==
+    password: XQNdU7Mc8E+VMsUkKnFYyjUEa5Dtlnmy6TduN81hNZ5nCdCoe6GGyuWdOkpXmF5XdUEhP0B82J250GG461vw/g==
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://47.120.33.192:3306/jc-club?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
@@ -27,6 +27,6 @@ spring:
           enabled: true
         config:
           enabled: true
-publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJu2GRTZHPQ/S3Bt4MAnD9gyPq0ftvv2BEbrOZAkSyYQ1JLHPaogrO3XBwWtZ0HrKc790kahFUCzwI8RdRrnpM0CAwEAAQ==
+publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKaYoN04Nzq7w9A0UEkUNvgjA2iTZmljYqh9kcU0C16YqkODBxulEDm6GEbyXoiL81u0/Exh8y5Z8tKMTP5NFDkCAwEAAQ==
 logging:
   config: classpath:log4j2-spring.xml

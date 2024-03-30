@@ -2,6 +2,8 @@ package com.jc.subject.infra.basic.service;
 
 import com.jc.subject.infra.basic.entity.SubjectCategory;
 
+import java.util.List;
+
 
 /**
  * 题目分类(SubjectCategory)表服务接口
@@ -33,7 +35,7 @@ public interface SubjectCategoryService {
      * @param subjectCategory 实例对象
      * @return 实例对象
      */
-    SubjectCategory update(SubjectCategory subjectCategory);
+    int update(SubjectCategory subjectCategory);
 
     /**
      * 通过主键删除数据
@@ -43,4 +45,10 @@ public interface SubjectCategoryService {
      */
     boolean deleteById(Long id);
 
+    /**
+     * decription: 查询题目大类
+     * @param subjectCategory
+     * @return java.util.List<com.jc.subject.infra.basic.entity.SubjectCategory>
+     */
+    List<SubjectCategory> queryCategory(SubjectCategory subjectCategory);
 }

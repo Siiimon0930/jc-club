@@ -3,7 +3,6 @@ package com.jc.subject.infra.basic.mapper;
 import com.jc.subject.infra.basic.entity.SubjectCategory;
 import org.apache.ibatis.annotations.Param;
 
-import java.awt.print.Pageable;
 import java.util.List;
 
 /**
@@ -71,5 +70,11 @@ public interface SubjectCategoryDao {
      */
     int deleteById(Long id);
 
+    /**
+     * decription: 查询题目大类
+     * @param subjectCategory
+     * @return java.util.List<com.jc.subject.infra.basic.entity.SubjectCategory>
+     */
+    List<SubjectCategory> queryCategory(SubjectCategory subjectCategory);
 }
 
